@@ -1,0 +1,22 @@
+{
+  "name": "check-wormhole-airdrop",
+  "version": "1.0.0",
+  "description": "check Wormhole airdrop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzone911/check-wormhole-airdrop.git"
+  },
+  "keywords": [
+    "airdrop"
+  ],
+  "author": "xzone911",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xzone911/check-wormhole-airdrop/issues"
+  },
+  "homepage": "https://github.com/xzone911/check-wormhole-airdrop#readme"
+}
