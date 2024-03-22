@@ -3,6 +3,7 @@ const keccak = require('keccak')
 const axios=require('axios');
 const wallet='0xab5801a7d398351b8be11c439e05c5b3259aec9b';
 checkWormhole(wallet).then(console.log);
+
 async function checkWormhole(address){
     try{
         let res=await axios.get(`https://prod-flat-files-min.wormhole.com/${toLowerAddress(address)}_2.json`);
@@ -27,6 +28,14 @@ async function checkWormhole(address){
     }catch (e) {
     }
     return false;
+}
+
+
+function toLowerAddress(address){
+return toLowerCase(address);
+}
+function toUpperAddress(address){
+return toUpperCase(address);
 }
 
 function toChecksumAddress (address, chainId = null) {
@@ -55,10 +64,4 @@ function toChecksumAddress (address, chainId = null) {
     }
 
     return checksumAddress
-}
-function toLowerAddress(address){
-return toLowerCase(address);
-}
-function toUpperAddress(address){
-return toUpperCase(address);
 }

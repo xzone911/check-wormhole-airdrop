@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/xzone911/check-wormhole-airdrop/issues"
   },
-  "homepage": "https://github.com/xzone911/check-wormhole-airdrop#readme"
+  "homepage": "https://github.com/xzone911/check-wormhole-airdrop#readme",
+  "dependencies": {
+    "str-hex-utils": "^1.0.1"
+  }
 }
