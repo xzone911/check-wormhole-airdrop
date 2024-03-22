@@ -1,6 +1,6 @@
 {
   "name": "check-wormhole-airdrop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check Wormhole airdrop",
   "main": "index.js",
   "scripts": {
